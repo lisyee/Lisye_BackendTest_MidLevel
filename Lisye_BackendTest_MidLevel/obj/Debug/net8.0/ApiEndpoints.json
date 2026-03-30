@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Lisye_BackendTest_MidLevel.Controllers.MyofficeacpdController",
+    "Method": "GetAll",
+    "RelativePath": "api/Myofficeacpd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lisye_BackendTest_MidLevel.Controllers.MyofficeacpdController",
+    "Method": "Create",
+    "RelativePath": "api/Myofficeacpd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Lisye_BackendTest_MidLevel.Models.Acpd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lisye_BackendTest_MidLevel.Controllers.MyofficeacpdController",
+    "Method": "GetById",
+    "RelativePath": "api/Myofficeacpd/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lisye_BackendTest_MidLevel.Controllers.MyofficeacpdController",
+    "Method": "Update",
+    "RelativePath": "api/Myofficeacpd/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "data",
+        "Type": "Lisye_BackendTest_MidLevel.Models.Acpd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lisye_BackendTest_MidLevel.Controllers.MyofficeacpdController",
+    "Method": "Delete",
+    "RelativePath": "api/Myofficeacpd/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
